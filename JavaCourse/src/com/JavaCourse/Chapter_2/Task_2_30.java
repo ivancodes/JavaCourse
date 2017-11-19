@@ -46,7 +46,7 @@ public class Task_2_30 {
 			nbr = nbr/10;
 			d5 = nbr % 10;
 
-			System.out.printf("%d%n%d%n%d%n%d%n%d%n", d1, d2, d3, d4, d5);
+			System.out.printf("%d%3d%3d%3d%3d%n", d5, d4, d3, d2, d1);
 			System.out.println("The sum of digits is: " + (d1 + d2 + d3 + d4 + d5));
 
 		}
