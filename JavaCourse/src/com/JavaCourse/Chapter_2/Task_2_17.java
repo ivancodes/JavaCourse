@@ -68,6 +68,7 @@ public class Task_2_17 {
 		
 		//Release the object after use
 		input.close();
+		System.exit(0);
 	}
 	
 	

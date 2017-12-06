@@ -28,9 +28,11 @@ public class Task_2_28 {
 		r = input.nextInt();
 		
 		// Calculation and results printing
-		System.out.printf("%s%d%n%s%.10f%n%s%.10f%n", "Diameter = ", 2*r, "Circumference = ", 2*Math.PI, "Area = ", 2*Math.PI*Math.PI);
+		System.out.printf("%s%d%n%s%.10f%n%s%.10f%n", "Diameter = ", 2*r, "Circumference = ", 2*Math.PI*r, "Area = ", 2*Math.PI*Math.PI);
 		
 		input.close();
+		System.exit(0);
+		
 	}
 
 }

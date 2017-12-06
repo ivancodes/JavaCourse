@@ -35,19 +35,20 @@ public class Task_2_31 {
 			k = 10;
 		
 		// caclulations + output
-		System.out.println(a + "    " + a*a + "    " + a*a*a + "    ");
-		System.out.println(b + "    " + b*b + "    " + b*b*b + "    ");
-		System.out.println(c + "    " + c*c + "    " + c*c*c + "    ");
-		System.out.println(d + "    " + d*d + "    " + d*d*d + "    ");
-		System.out.println(e + "    " + e*e + "   " + e*e*e + "    ");
-		System.out.println(f + "    " + f*f + "   " + f*f*f + "    ");
-		System.out.println(g + "    " + g*g + "   " + g*g*g + "    ");
-		System.out.println(h + "    " + h*h + "   " + h*h*h + "    ");
-		System.out.println(i + "    " + i*i + "   " + i*i*i + "    ");
-		System.out.println(j + "    " + j*j + "   " + j*j*j + "    ");
-		System.out.println(k + "   " + k*k + "  " + k*k*k + "    ");
+		System.out.println(a + "\t" + a*a + "\t" + a*a*a + "\t");
+		System.out.println(b + "\t" + b*b + "\t" + b*b*b + "\t");
+		System.out.println(c + "\t" + c*c + "\t" + c*c*c + "\t");
+		System.out.println(d + "\t" + d*d + "\t" + d*d*d + "\t");
+		System.out.println(e + "\t" + e*e + "\t" + e*e*e + "\t");
+		System.out.println(f + "\t" + f*f + "\t" + f*f*f + "\t");
+		System.out.println(g + "\t" + g*g + "\t" + g*g*g + "\t");
+		System.out.println(h + "\t" + h*h + "\t" + h*h*h + "\t");
+		System.out.println(i + "\t" + i*i + "\t" + i*i*i + "\t");
+		System.out.println(j + "\t" + j*j + "\t" + j*j*j + "\t");
+		System.out.println(k + "\t" + k*k + "\t" + k*k*k + "\t");
 		
-		
+System.exit(0);
+
 	}
 
 }

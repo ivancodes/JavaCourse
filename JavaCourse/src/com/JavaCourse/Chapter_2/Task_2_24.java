@@ -30,6 +30,10 @@ public class Task_2_24 {
 		System.out.println();
 		
 		// Analize the comparison and print the largest & smallest values
+		if (nbr1 == nbr2 & nbr1 == nbr3 & nbr1 == nbr4 & nbr1 == nbr5) {
+			System.out.println("You have entered the equal values.");
+		}
+		
 		if (nbr1 > nbr2 & nbr1 > nbr3 & nbr1 > nbr4 & nbr1 > nbr5) {
 			System.out.println(nbr1 + " is the largest.");
 		}
@@ -72,6 +76,7 @@ public class Task_2_24 {
 		
 		//Release the used object
 		input.close();
+		System.exit(0);
 	}
 
 }
