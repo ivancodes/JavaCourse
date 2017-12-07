@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Chapter_4_Task_37 {
 
 	// Put Factorial calcualtion into a separate method body to make it reusable
-	public static int CountFactorial(int number) {
+	public static int countFactorial(int number) {
 		int factorial = 1, count = 1;
 		while (count <= number) {
 
@@ -37,7 +37,7 @@ public class Chapter_4_Task_37 {
 		}
 
 		// Return calculated result
-		System.out.print("Factorial = " + CountFactorial(number));
+		System.out.print("Factorial = " + countFactorial(number));
 
 		// TASK B - CONSTANT E
 
@@ -52,11 +52,11 @@ public class Chapter_4_Task_37 {
 		int count = 1;
 		double eConst = 1;
 		while (count < number) {
-			eConst += (double) 1 / CountFactorial(count++);
+			eConst += (double) 1 / countFactorial(count++);
 
 		}
 
-		System.out.print("The estimated constant  value: " + eConst);
+		System.out.print("The estimated constant \"E\" value: " + eConst);
 
 		
 		// TASK C = CONSTANT E POWERED BY X
@@ -75,7 +75,7 @@ public class Chapter_4_Task_37 {
 		eConst = 1;
 		
 		while (count < number) {
-			eConst += (double) Math.pow(x++, count) / CountFactorial(count++);
+			eConst += (double) Math.pow(x++, count) / countFactorial(count++);
 			
 		}
 		System.out.print("The E constant powered by X: " + Math.pow(eConst, x));
