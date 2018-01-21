@@ -62,11 +62,11 @@ public class Chapter_5_Task_17 {
 		}
 		
 		double totalSalesProduct1 = product1count*2.98,
-				   totalSalesProduct2 = product2count*4.5,
-				   totalSalesProduct3 = product3count*9.98,
-				   totalSalesProduct4 = product4count*4.49,
-				   totalSalesProduct5 = product5count*6.87,
-				   total = totalSalesProduct1 + totalSalesProduct2 + totalSalesProduct3 +totalSalesProduct4 + totalSalesProduct5;
+			   totalSalesProduct2 = product2count*4.5,
+			   totalSalesProduct3 = product3count*9.98,
+			   totalSalesProduct4 = product4count*4.49,
+			   totalSalesProduct5 = product5count*6.87,
+			   total = totalSalesProduct1 + totalSalesProduct2 + totalSalesProduct3 +totalSalesProduct4 + totalSalesProduct5;
 		
 		// Print results
 		System.out.println("\n### SALES RESULTS ###");
